@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     private static int age = 10;
@@ -23,9 +25,16 @@ public class Main {
         i = s;
         s = (short) i;
         System.out.println("张三的年龄市" + age + "xuehao " + no);
-       /* String str = "aaa\rbbb";
-        System.out.println(str);*/
+        String str = "aaa\rbbb";
+        System.out.println(str);
+        int i3 = 10;
 
+        System.out.println(i++);
+        System.out.println(i);
+        System.out.println("请输入");
+        Scanner sc = new Scanner(System.in);
+        int i7 = sc.nextInt();
+        System.out.println(i);
     }
 
 
